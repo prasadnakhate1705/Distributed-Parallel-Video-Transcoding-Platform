@@ -1,0 +1,14 @@
+aws_region           = "us-east-1"
+project_name         = "videotranscoder"
+key_pair_name        = "your-key-pair-name"
+allowed_ssh_cidr     = "YOUR_IP/32"   # run: curl ifconfig.me
+
+master_instance_type = "t3.medium"
+worker_instance_type = "t3.large"
+worker_count         = 2
+
+spark_version        = "3.5.1"
+spark_executor_memory = "2g"
+spark_executor_cores  = 2
+
+jobs_table_name      = "TranscodeJobs"

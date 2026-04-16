@@ -1,0 +1,4 @@
+boto3>=1.34
+python-dotenv>=1.0
+psutil>=5.9
+pyspark>=3.5        # multi_node only; omit if running single_node standalone
