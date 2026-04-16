@@ -354,9 +354,3 @@ All endpoints (except `/health`) require the `X-API-Key` header.
 | `resolutions` | string (multi) | One or more of: `640x360`, `1280x720`, `1920x1080`, `3840x2160` |
 
 ---
-
-## Screenshots
-
-![Architecture Demo](assets/demo.png)
-![Frontend Upload](assets/upload.png)
-![Frontend Stream](assets/stream.jpg)
